@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APAG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <header>
+    <nav class="nav" id="nav">
+      <div class="div-logo">
+        <img
+          src="img/animalNav.webp"
+          alt="imagem de cão e gato"
+          class="img-nav"
+        />
+        <h1>APAG</h1>
+      </div>
+      <button
+        aria-label="Abrir menu"
+        id="btn-mobile"
+        aria-haspopup="true"
+        aria-controls="menu"
+        aria-expanded="false"
+      >
+        <span id="hamburguer"></span>
+      </button>
+      <ul class="nav-links" id="menu">
+        <li><a href="#home">home</a></li>
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#contato">contato</a></li>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=557999780318"
+            target="_blank"
+            rel="noreferrer"
+            class="btn-doacao"
+            >faça uma doação</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="home">
+    <section class="imag-banner">
+      <div class="sombra"></div>
+      <div class="conteudo-banner">
+        <h1>
+          Quando você ajuda um animal abandonado, você cura dois corações: o
+          dele e o seu.
+        </h1>
+        <a
+          href="https://api.whatsapp.com/send?phone=5579999780318"
+          rel="noreferrer"
+          target="_blank"
+          class="btn-doacao btn"
+        >
+          quero adotar
+        </a>
+      </div>
+      <img src="img/cao.webp" alt="imagem de um cachorro" class="img" />
+    </section>
+    <section class="adotar">
+      <h1>por que adotar?</h1>
+      <div class="cards">
+        <div class="card">
+          <img src="img/card1.jpg" alt="imagem do card" />
+          <p>
+            <strong>Nesse exato momento,</strong> existem milhares de doguinhos
+            e gatinhos esperando um humano para chamar de seu.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card2.jpg" alt="imagem do card" />
+          <p>
+            <strong>E não há recompensa maior</strong>
+            do que vê-los se tornando aquela coisinha alegre e saudável depois
+            de uma boa dose de cuidado e carinho.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/card3.jpg" alt="imagem do card" />
+          <p>
+            <strong>Pensando bem, a pergunta é outra:</strong>
+            se você pode mudar o destino de um animal de rua, por que não faria
+            isso?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="sobre" id="sobre">
+      <h1>quem somos?</h1>
+      <div class="conteudo-sobre">
+        <p>
+          Somos protetoras independentes, com liderança de Gabriela Jacó que há
+          mais de 6 anos dedica sua vida á cuidar diariamente desses animais
+          resgatados. Não temos nenhuma ajuda ou benefício governamental,
+          mantemos esses animais alimentados e cuidados através das doações da
+          própria população. Não temos local próprio, ha 5 anos ficamos em um
+          espaço cedido por um empresário local. Já resgatamos, cuidamos,
+          castramos e doamos centenas de animais nesses anos e atualmente temos
+          40 sob nossa responsabilidade que não conseguiram adoção. Nossa luta
+          não é fácil, já quase fechamos muitas vezes por falta de doação. Mas o
+          amor por esses animais nos move e nos mantém de pé em meio a tantas
+          dificuldades… E se assim como nós você também ama e sente a dor desses
+          animais, também pode ajudá-los doando ou adotando.
+        </p>
+        <img src="img/card1.jpg" alt="quem somos" />
+      </div>
+    </section>
+    <section class="contato" id="contato">
+      <h1>entre em contato conosco</h1>
+      <div class="div-contato">
+        <div>
+          <p>whatsapp</p>
+          <a
+            href="https://api.whatsapp.com/send?phone=557999780318"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="img/whatsapp.png" alt="logo whatsapp " />
+          </a>
+        </div>
+        <div>
+          <p>instagram</p>
+          <a href="https://www.instagram.com/apag_pv/">
+            <img src="img/instagram.png" alt="logo instagram" />
+          </a>
+        </div>
+      </div>
+      <div class="pix">
+        <p>doe através do nosso pix:</p>
+        <img src="img/pix.png" alt="logo pix" />
+        <p>79999780318</p>
+      </div>
+    </section>
+  </main>
+  <footer>&copy; todos os direitos reservados a apag</footer>
+  <body>
+    <script src="mobile-navbar.js"></script>
+  </body>
+</html>
